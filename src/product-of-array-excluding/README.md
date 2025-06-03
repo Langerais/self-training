@@ -63,7 +63,8 @@ java ProductOfArrayExcl
   Output: `[1, 1, 1, 1]`
 
 
-- Input: `[5]` - `For a single-element input, the output is [1] because the product of all other elements (none) is considered 1 by definition.`
+- Input: `[5]` - *For a single-element input, the output is [1] because the product of all other elements (none) is considered 1 by definition.*
+
   Output: `[1]`
 
 
