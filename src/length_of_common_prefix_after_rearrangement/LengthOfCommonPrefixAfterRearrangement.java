@@ -2,6 +2,10 @@ package length_of_common_prefix_after_rearrangement;
 
 import java.util.*;
 
+//You are given a number of strings. You can rearrange (permute) the letters within each string independently in any order you want. Your goal is to rearrange each string so that the longest common prefix among all rearranged strings is as long as possible.
+//
+//Return or find the length of that longest common prefix.
+
 public class LengthOfCommonPrefixAfterRearrangement {
 
     public static int lengthOfCommonPrefixAfterRearrangement(String[] strings){
