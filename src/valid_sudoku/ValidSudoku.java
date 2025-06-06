@@ -30,8 +30,7 @@ public class ValidSudoku {
 
                 int boxIndex = i / 3 * 3 + (j / 3);
 
-                if (vert[i][index] || horiz[j][index] || box[boxIndex][index])
-                    return false;
+                if (vert[i][index] || horiz[j][index] || box[boxIndex][index]) return false;
 
                 vert[i][index] = true;
                 horiz[j][index] = true;
